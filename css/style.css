@@ -35,6 +35,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 @import url('animation-spin.css');
+@import url('');
 @font-face {
   font-family: 'Helvetica-Rounded';
   src: url('fonts/Helvetica-Rounded-Bold.woff');
@@ -271,6 +272,7 @@ p{
 .px-120{
   padding-top: 120px;
   padding-bottom: 120px;
+  
 }
 .mt-50{
   margin-top: 50px;
@@ -310,6 +312,9 @@ p{
 .sec-title.text-white *{
   color: var(--clr-common-white);
 }
+
+
+
 
 
 /*button default*/
@@ -4740,3 +4745,130 @@ Start Contact page styles
 Close Contact page styles
 
 -------------------------------- */
+
+.accordion-item:first-of-type .accordion-button{
+  color: #fd7e14;
+  border-radius: 50px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed{
+  border-radius: 50px;
+}
+
+.FAQ-sec .accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #141045 !important;
+  font-size: 1rem;
+  text-align: left;
+  color: #fd7e14;
+  border: 0;
+  border-radius: 50px;
+  overflow-anchor: none;
+}
+.accordion-body {
+  color: black;
+}
+.accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: var(--bs-accordion-bg);
+  padding-top: 10px;
+  border: none;
+  /* border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color); */
+}
+section.FAQ-sec div.sec-title h2 {
+  padding-bottom: 50px; 
+  color: black;
+}
+section.game-section div.sec-title h2 {
+  padding-bottom: 32px; 
+  color: black;
+}
+section.Register div.sec-title h2 {
+  padding-top: 65px; 
+  color: black;
+}
+section.reach div.sec-title h2 {
+  padding-top: 60px; 
+  color: black;
+}
+section.testimonial-sec div.sec-title h2 {
+  color: white;
+  padding-bottom: 40px;
+}
+section.Partial-sec div.sec-title h2 {
+  color: white;
+  padding-bottom: 40px;
+}
+
+/* slider */
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  background: white;
+  box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin-top: 80px;
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
+
+section.Partial div.sec-title h2{
+  color: black;
+  padding-top: 80px;
+}
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+  column-gap: 40px;
+  margin-top: 30px;
+}

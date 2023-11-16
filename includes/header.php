@@ -2,9 +2,83 @@
         <div class="navbar-area">
             <div class="main-responsive-nav">
                 <div class="container">
-                    <div class="main-responsive-menu">
+                    <div class="main-responsive-menu mean-container"><div class="mean-bar"><a href="#nav" class="meanmenu-reveal" style="background:;color:;right:0;left:auto;"><span><span><span></span></span></span></a><nav class="mean-nav">
+                            <ul class="navbar-nav mx-auto" style="display: none;">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link active"> Home <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" style="display: none;">
+                                        <li class="nav-item">
+                                            <a href="index.html" class="nav-link active">Home Demo - 1</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="index-2.html" class="nav-link ">Home Demo - 2</a>
+                                        </li>
+                                    </ul>
+                                <a class="mean-expand" href="#" style="font-size: 18px">+</a></li>
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link "> Event <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" style="display: none;">
+                                        <li class="nav-item">
+                                            <a href="events.html" class="nav-link ">Event</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="event-details.html" class="nav-link ">Event Details</a>
+                                        </li>
+                                    </ul>
+                                <a class="mean-expand" href="#" style="font-size: 18px">+</a></li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link "> Pages <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" style="display: none;">                                        
+                                        <li class="nav-item">
+                                            <a href="gallary.html" class="nav-link ">Gallary</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="speaker.html" class="nav-link ">Speaker</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="speaker-details.html" class="nav-link ">Speaker Details</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pricing.html" class="nav-link ">Pricing</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="registration.html" class="nav-link ">Registration</a>
+                                        </li>
+                                    </ul>
+                                <a class="mean-expand" href="#" style="font-size: 18px">+</a></li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link "> Blog <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" style="display: none;">
+                                        <li class="nav-item">
+                                            <a href="blog-grid.html" class="nav-link ">Blog Grid</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="blog-details.html" class="nav-link ">Blog Details</a>
+                                        </li>
+                                    </ul>
+                                <a class="mean-expand" href="#" style="font-size: 18px">+</a></li>
+                                <li class="nav-item mean-last">
+                                    <a href="contact.html" class="nav-link">Contact</a>
+                                </li>
+                            </ul><!--/.navbar-nav -->
+                            <div class="others-options d-flex align-items-center">
+                                <div class="option-item">
+                                    <a class="opt" href="#search"><i class="fa-solid fa-search"></i></a>
+                                </div>
+                                <div class="option-item d-none d-xl-inline-block">
+                                    <a href="registration.html" class="btn btn1">Buy Tickets</a>
+                                </div>
+                            </div><!--/.others-options-->
+                        </nav></div>
                         <div class="logo">
-                            <a href="index.php">
+                            <a href="index.html">
                                 <img src="img/logo.png" alt="image">
                             </a>
                         </div><!--/.logo-->
@@ -14,100 +88,81 @@
             <div class="main-navbar">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.php">
+                        <a class="navbar-brand" href="index.html">
                             <img src="img/logo.png" alt="image">
                         </a>
-                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <div class="mean-push"></div><div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent" style="display: none;">
                             <ul class="navbar-nav mx-auto">
                                 <li class="nav-item">
                                     <a href="#" class="nav-link active"> Home <i class="fa-solid fa-chevron-down"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="index.php" class="nav-link active">Home Demo - 1</a>
+                                            <a href="index.html" class="nav-link active">Home Demo - 1</a>
                                         </li>
-                                        <!-- <li class="nav-item">
-                                            <a href="index-2.php" class="nav-link ">Home Demo - 2</a>
-                                        </li> -->
+                                        <li class="nav-item">
+                                            <a href="index-2.html" class="nav-link ">Home Demo - 2</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="about.php" class="nav-link">About Us</a>
+                                    <a href="about.html" class="nav-link">About</a>
                                 </li>
-                                <!-- <li class="nav-item">
+                                <li class="nav-item">
                                     <a href="#" class="nav-link "> Event <i class="fa-solid fa-chevron-down"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="events.php" class="nav-link ">Event</a>
+                                            <a href="events.html" class="nav-link ">Event</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="event-details.php" class="nav-link ">Event Details</a>
+                                            <a href="event-details.html" class="nav-link ">Event Details</a>
                                         </li>
                                     </ul>
-                                </li> -->
-                                <li class="nav-item">
-                                    <a href="speaker.php" class="nav-link ">Speakers</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="events.php" class="nav-link ">Event Timeline</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="events.php" class="nav-link ">WV Awards</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="events.php" class="nav-link ">CSR</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="registration.php" class="nav-link ">Early Bird</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="events.php" class="nav-link ">Sponsorship</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="contact.php" class="nav-link">Contact Us</a>
-                                </li>
-                                <!-- <li class="nav-item">
                                     <a href="#" class="nav-link "> Pages <i class="fa-solid fa-chevron-down"></i>
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu">                                        
                                         <li class="nav-item">
-                                            <a href="gallary.php" class="nav-link ">Gallary</a>
+                                            <a href="gallary.html" class="nav-link ">Gallary</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="speaker.php" class="nav-link ">Speakers</a>
+                                            <a href="speaker.html" class="nav-link ">Speaker</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="speaker-details.php" class="nav-link ">Speaker Details</a>
+                                            <a href="speaker-details.html" class="nav-link ">Speaker Details</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="pricing.php" class="nav-link ">Pricing</a>
+                                            <a href="pricing.html" class="nav-link ">Pricing</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="registration.php" class="nav-link ">Registration</a>
+                                            <a href="registration.html" class="nav-link ">Registration</a>
                                         </li>
                                     </ul>
-                                </li> 
+                                </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link "> Blog <i class="fa-solid fa-chevron-down"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="blog-grid.php" class="nav-link ">Blog Grid</a>
+                                            <a href="blog-grid.html" class="nav-link ">Blog Grid</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="blog-details.php" class="nav-link ">Blog Details</a>
+                                            <a href="blog-details.html" class="nav-link ">Blog Details</a>
                                         </li>
                                     </ul>
                                 </li>
-                                -->
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link">Contact</a>
+                                </li>
                             </ul><!--/.navbar-nav -->
                             <div class="others-options d-flex align-items-center">
                                 <div class="option-item">
                                     <a class="opt" href="#search"><i class="fa-solid fa-search"></i></a>
                                 </div>
                                 <div class="option-item d-none d-xl-inline-block">
-                                    <a href="registration.php" class="btn btn1">Buy Tickets</a>
+                                    <a href="registration.html" class="btn btn1">Buy Tickets</a>
                                 </div>
                             </div><!--/.others-options-->
                         </div>
