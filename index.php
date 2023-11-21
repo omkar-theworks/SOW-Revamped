@@ -15,7 +15,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SOW MVC</title>
+    <title>Home</title>
     <!-- Standard Favicon -->
     <link rel="icon" href="img/fav/favicon-96x96.png">
 
@@ -37,27 +37,19 @@
     <!--swiper-->
     <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
     <!--main style-->
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css'>
-    <link rel="stylesheet" href="css/carousel-style.css"> <!--modernizr-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/vendor/modernizr.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="css/style1.css"> -->
 
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'> -->
+
+
+    <!--modernizr-->
+    <script src="js/vendor/modernizr.js"></script>
 
     <!--[if lt IE 9]>
     <script src="js/html5/respond.min.js"></script>
     <![endif]-->
 </head>
-<style>
-    .navbar-expand-md .navbar-nav .nav-link {
-        padding: 0;
-        margin: 0;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 21px;
-        color: var(--clr-common-white);
-    }
-</style>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
     <div class="se-pre-con"></div>
@@ -69,8 +61,8 @@
                 <div class="container">
                     <div class="main-responsive-menu">
                         <div class="logo">
-                            <a href="index.html">
-                                <img src="img/logo.png"  alt="image">
+                            <a href="#">
+                                <img src="img/logo.png" alt="image">
                             </a>
                         </div><!--/.logo-->
                     </div>
@@ -79,42 +71,53 @@
             <div class="main-navbar">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="#">
                             <img src="img/logo.png" alt="image">
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav mx-auto">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link active"> Home <i class="fa-solid fa-chevron-down"></i>
+                                    <a href="#" class="nav-link active"> Home
+                                        <!-- <i class="fa-solid fa-chevron-down"></i> -->
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <!-- <ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <a href="index.html" class="nav-link active">Home Demo - 1</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="index-2.html" class="nav-link ">Home Demo - 2</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="nav-item">
-                                    <a href="about.html" class="nav-link">About</a>
+                                    <a href="#" class="nav-link">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link "> Event <i class="fa-solid fa-chevron-down"></i>
+                                    <a href="#" class="nav-link">Speakers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Event Timeline</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">WV Awards</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link "> CSR
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <!-- <ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <a href="events.html" class="nav-link ">Event</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="event-details.html" class="nav-link ">Event Details</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link "> Pages <i class="fa-solid fa-chevron-down"></i>
+                                    <a href="#" class="nav-link "> Early Bird
+                                        <!-- <i class="fa-solid fa-chevron-down"></i> -->
                                     </a>
-                                    <ul class="dropdown-menu">                                        
+                                    <!-- <ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <a href="gallary.html" class="nav-link ">Gallary</a>
                                         </li>
@@ -130,22 +133,23 @@
                                         <li class="nav-item">
                                             <a href="registration.html" class="nav-link ">Registration</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link "> Blog <i class="fa-solid fa-chevron-down"></i>
+                                    <a href="#" class="nav-link "> Sponsorship
+                                        <!-- <i class="fa-solid fa-chevron-down"></i> -->
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <!-- <ul class="dropdown-menu">
                                         <li class="nav-item">
                                             <a href="blog-grid.html" class="nav-link ">Blog Grid</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="blog-details.html" class="nav-link ">Blog Details</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li class="nav-item">
-                                    <a href="contact.html" class="nav-link">Contact</a>
+                                    <a href="#" class="nav-link">Contact Us</a>
                                 </li>
                             </ul><!--/.navbar-nav -->
                             <div class="others-options d-flex align-items-center">
@@ -153,7 +157,7 @@
                                     <a class="opt" href="#search"><i class="fa-solid fa-search"></i></a>
                                 </div>
                                 <div class="option-item d-none d-xl-inline-block">
-                                    <a href="registration.html" class="btn btn1">Buy Tickets</a>
+                                    <a href="#" class="btn btn1">Buy Tickets</a>
                                 </div>
                             </div><!--/.others-options-->
                         </div>
@@ -180,8 +184,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left-content-hero">
-                        <h1>The Leading Music
-                            Conference of<br>
+                        <h1>The Leading Wedding
+                            Event of<br>
                             The Year</h1>
                     </div><!--/.left-content-hero-->
                 </div>
@@ -207,7 +211,7 @@
                 </div>
                 <div class="col-md-12">
                     <div class="hero-video-pop">
-                        <a href="/img/2.jpg" class="video-popup">
+                        <a href="https://www.youtube.com/watch?v=WcIcVapfqXw" class="video-popup">
                             <div class="button-outer-circle has-scale-animation"></div>
                             <div class="button-outer-circle has-scale-animation has-delay-short"></div>
                             <div class="button-icon is-play">
@@ -217,22 +221,12 @@
                                 </svg>
                             </div>
                         </a>
-                        <!-- <video controls width="100%" style="max-width:100%" height="250px">
-                            <source src="img/banner-video.mp4" type="video/mp4">
-                            <div class="button-icon is-play">
-                                <svg height="100%" width="100%" fill="#010101">
-                                    <polygon class="triangle" points="5,0 30,15 5,30"></polygon>
-                                    <path class="path" d="M5,0 L30,15 L5,30z" fill="none" stroke="#010101" stroke-width="1"></path>
-                                </svg>
-                            </div>
-                            Your browser does not support the video tag.
-                        </video> -->
                     </div><!--/.hero-video-pop-->
                 </div>
             </div>
         </div><!--/.container-->
-        <img src="img/banner-shape-1.svg" class="shape-one-top" alt="">
-        <img src="img/banner-shape-2.png" class="shape-one-right" alt="">
+        <!-- <img src="img/banner-shape-1.svg" class="shape-one-top" alt="">
+        <img src="img/banner-shape-2.png" class="shape-one-right" alt=""> -->
     </section>
     <!--banner sec end-->
 
@@ -243,12 +237,12 @@
                 <div class="col-lg-6">
                     <div class="left-imgs-about">
                         <div class="d-flex align-items-start justify-content-between">
-                            <img src="img/about-1.jpg" data-aos="fade-in" class="img1" alt="">
-                            <img src="img/about-3.jpg" data-aos="flip-left" data-aos-delay="300" class="img2" alt="">
-                            <img src="img/about-2.jpg" data-aos="zoom-in" class="pos-bottom" alt="">
+                            <img src="img/Carousel-images/11.png" data-aos="flip-left" data-aos-delay="300" class="img2" alt="">
+                            <img src="img/Carousel-images/10.png" data-aos="fade-in" class="img1" alt="">
+                            <img src="img/Carousel-images/12.png" data-aos="zoom-in" class="pos-bottom" alt="">
                         </div>
                         <!-- <div class="congrats-txt">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center" >
                                 <div class="icon">
                                     <i class="fa-solid fa-check"></i>
                                 </div>
@@ -263,11 +257,22 @@
                 <div class="col-lg-6">
                     <div class="right-content-about">
                         <div class="sec-title">
-                            <h4><img src="img/icon/title-icon.svg" data-aos="flip-left" data-aos-duration="1500" alt="">WV Connect</h4>
+                            <h4><img src="img/icon/title-icon.svg" data-aos="flip-left" data-aos-duration="1500" alt="">
+                                WV Connect</h4>
                             <h2>About Us</h2>
-                            <p>WV Connect, Asia's largest B2B Wedding Summit, has been at the forefront of transforming the wedding industry since its inception. Over the past editions, we have brought together thought leaders, industry veterans, and innovators to inspire, educate, and propel the wedding ecosystem forward.</p>
-                            <p>Over the years, we've explored various themes, each enriching the wedding landscape in unique ways. WV Connect has witnessed tremendous success, shaping trends, and contributing to the professional development of wedding fraternity members, vendors, and stakeholders. Our legacy stands as a testament to our commitment to driving positive change within the industry.</p>
-                            <p>With the theme of the third season as "Royally Teched," the 3-day extravaganza is set to be an unparalleled gathering of visionaries, trailblazers, and experts from the Indian Wedding Industry, converging to explore the dynamic fusion of technology and weddings.</p>
+                            <p>WV Connect, Asia's largest B2B Wedding Summit, has been at the forefront of transforming
+                                the wedding industry since its inception. Over the past editions, we have brought
+                                together thought leaders, industry veterans, and innovators to inspire, educate, and
+                                propel the wedding ecosystem forward.</p>
+                            <p>Over the years, we've explored various themes, each enriching the wedding landscape in
+                                unique ways. WV Connect has witnessed tremendous success, shaping trends, and
+                                contributing to the professional development of wedding fraternity members, vendors, and
+                                stakeholders. Our legacy stands as a testament to our commitment to driving positive
+                                change within the industry.</p>
+                            <p>With the theme of the third season as "Royally Teched," the 3-day extravaganza is set to
+                                be an unparalleled gathering of visionaries, trailblazers, and experts from the Indian
+                                Wedding Industry, converging to explore the dynamic fusion of technology and weddings
+                            </p>
                         </div>
                         <!-- <div class="about-bxs">
                             <div class="d-sm-flex justify-content-between gap-4 ">
@@ -281,167 +286,192 @@
                                     <img src="img/icon/calendar.svg" alt="">
                                     <h4>When Will Start</h4>
                                     <p>Sunday to Wednesday March
-                                        <strong>12 to 15, 2023</strong>
-                                    </p>
+                                       <strong>12 to 15, 2023</strong></p>
                                 </div>
                             </div>
                         </div> -->
-                        <!-- <a href="about.php" class="btn btn1">Read More</a> -->
+                        <a href="about.html" class="readmore">Read More</a>
                     </div><!--/.right-content-about-->
                 </div>
             </div>
         </div><!--/.container-->
     </section>
     <!-- about sec end -->
+
     <!-- Reach start -->
-    <section class="reach">
-    <div class="sec-title text-white text-center">
-            <h2>Our Reach</h2>
-        </div>
-    <div class="col-12">
-        <div class="fun-fact-wrap-v2">
-            <div class="row g-4 gy-5">
-                <div class="col">
-                    <div class="single-fact-v2" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="icon">
-                            <img src="img/icon/fact1.svg" alt="">
-                        </div>
-                        <div class="cont">
-                            <h2>700+</h2>
-                            <p>ATTENDEES</p>
-                        </div>
-                    </div><!--/.single-fact-v2-->
-                </div>
-                <div class="col">
-                    <div class="single-fact-v2" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="icon">
-                            <img src="img/icon/fact2.svg" alt="">
-                        </div>
-                        <div class="cont">
-                            <h2>50+</h2>
-                            <p>SPEAKERS</p>
-                        </div>
-                    </div><!--/.single-fact-v2-->
-                </div>
-                <div class="col">
-                    <div class="single-fact-v2" data-aos="zoom-in" data-aos-delay="600">
-                        <div class="icon">
-                            <img src="img/icon/handshake.png" alt="" style="width: 75px;">
-                        </div>
-                        <div class="cont">
-                            <h2>100+</h2>
-                            <p>EXHIBITORS <br>& PARTNERS</p>
-                        </div>
-                    </div><!--/.single-fact-v2-->
-                </div>
-                <div class="col">
-                    <div class="single-fact-v2" data-aos="zoom-in" data-aos-delay="900">
-                        <div class="icon">
-                            <img src="img/icon/fact4.svg" alt="">
-                        </div>
-                        <div class="cont">
-                            <h2>60+</h2>
-                            <p>AWARDS</p>
-                        </div>
-                    </div><!--/.single-fact-v2-->
-                </div>
-                <div class="col">
-                    <div class="single-fact-v2" data-aos="zoom-in" data-aos-delay="900">
-                        <div class="icon">
-                            <img src="img/icon/growth.png" alt="" style="width: 75px;">
-                        </div>
-                        <div class="cont">
-                            <h2>5x</h2>
-                            <p>YOUR BUSINESS</p>
-                        </div>
-                    </div><!--/.single-fact-v2-->
-                </div>
+    <div class="container">
+        <section class="reach">
+            <div class="sec-title text-white text-center">
+                <h2>Our Reach</h2>
             </div>
-        </div><!--/.fun-fact-wrap-v2-->
+            <div class="col-12">
+                <div class="fun-fact-wrap-v2">
+                    <div class="row g-4 gy-5">
+                        <div class="col">
+                            <div class="single-fact-v2" data-aos="zoom-in" data-aos-delay="100">
+                                <div class="icon">
+                                    <img src="img/icon/Attendees.jpg" alt="">
+                                </div>
+                                <div class="cont">
+                                    <h2>700+</h2>
+                                    <p>ATTENDEES</p>
+                                </div>
+                            </div><!--/.single-fact-v2-->
+                        </div>
+                        <div class="col">
+                            <div class="single-fact-v2" data-aos="zoom-in" data-aos-delay="300">
+                                <div class="icon">
+                                    <img src="img/icon/Speakers.jpg" alt="">
+                                </div>
+                                <div class="cont">
+                                    <h2>50+</h2>
+                                    <p>SPEAKERS</p>
+                                </div>
+                            </div><!--/.single-fact-v2-->
+                        </div>
+                        <div class="col">
+                            <div class="single-fact-v2" data-aos="zoom-in" data-aos-delay="600">
+                                <div class="icon">
+                                    <img src="img/icon/Exhibitors.jpg" alt="" style="width: 110px;">
+                                </div>
+                                <div class="cont">
+                                    <h2>100+</h2>
+                                    <p>EXHIBITORS <br>& PARTNERS</p>
+                                </div>
+                            </div><!--/.single-fact-v2-->
+                        </div>
+                        <div class="col">
+                            <div class="single-fact-v2" data-aos="zoom-in" data-aos-delay="900">
+                                <div class="icon">
+                                    <img src="img/icon/Awards.jpg" alt="">
+                                </div>
+                                <div class="cont">
+                                    <h2>60+</h2>
+                                    <p>AWARDS</p>
+                                </div>
+                            </div><!--/.single-fact-v2-->
+                        </div>
+                        <div class="col">
+                            <div class="single-fact-v2" data-aos="zoom-in" data-aos-delay="900">
+                                <div class="icon">
+                                    <img src="img/icon/Business.jpg" alt="" style="width: 100px;">
+                                </div>
+                                <div class="cont">
+                                    <h2>5x</h2>
+                                    <p>YOUR BUSINESS</p>
+                                </div>
+                            </div><!--/.single-fact-v2-->
+                        </div>
+                    </div>
+                </div><!--/.fun-fact-wrap-v2-->
+            </div>
+        </section>
     </div>
-    </section>
     <!-- Reach end -->
 
-    <!-- Unlock the feature -->
-    <section class="Register">
-    <div class="sec-title text-white text-center">
-            <h2>Unlock the feature</h2>
-        </div>
-    <div class="col-12">
-        <div class="join-event-countdown mt-50">
-            <a href="events.php" class="btn btn2">Register Now</a>
-            <div id="countdown" class="countt-wrap">
-                <ul class="d-flex flex-wrap">
-                    <li><span class="cnt day-z" id="days"></span><span class="name">Days</span></li>
-                    <li><span class="cnt" id="hours"></span><span class="name">Hours</span></li>
-                    <li><span class="cnt" id="minutes"></span><span class="name">Minutes</span></li>
-                    <li><span class="cnt" id="seconds"></span><span class="name">Seconds</span></li>
-                </ul>
+    <!--join event sec start-->
+    <section class="join-event-sec px-120">
+        <div class="container">
+            <div class="sec-title text-black text-center">
+                <h2>Unlock the feature</h2>
             </div>
-        </div><!--/.join-event-countdown-->
+            <div class="row">
+                <div class="col-12">
+                    <!-- <div class="row gy-4">
+                        <div class="col-md-6">
+                            <div class="sec-title">
+                                <h4><img src="img/icon/title-icon.svg" data-aos="flip-left" data-aos-duration="1500"
+                                        alt=""> Decide to Join the Event</h4>
+                                <h2>Find Amazing Events
+                                    Happening in your City</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <p>You are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                                embarras
+                                hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to
+                                your as repeat
+                                predefined chunks as necessary, making this the first true generator on the Internet.
+                            </p>
+                            <a href="events.html" class="mt-4 d-block single-link">Read More <i
+                                    class="fa-solid fa-arrow-right rotate-30"></i></a>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="col-12">
+                    <div class="join-event-countdown mt-50">
+                        <a href="events.html" class="btn">Register Now</a>
+                        <div id="countdown" class="countt-wrap">
+                            <ul class="d-flex flex-wrap">
+                                <li><span class="cnt day-z" id="days"></span><span class="name">Days</span></li>
+                                <li><span class="cnt" id="hours"></span><span class="name">Hours</span></li>
+                                <li><span class="cnt" id="minutes"></span><span class="name">Minutes</span></li>
+                                <li><span class="cnt" id="seconds"></span><span class="name">Seconds</span></li>
+                            </ul>
+                        </div>
+                    </div><!--/.join-event-countdown-->
+                </div>
+            </div>
+        </div><!--/.container-->
+    </section>
+    <!--join event sec end-->
+
+    <!-- What can u expect
+<section class="game-section">
+    <div class="owl-carousel custom-carousel owl-theme">
+      <div class="item active"
+        style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/dota-2.jpg);">
+        <div class="item-desc">
+          <h3>Dota 2</h3>
+          <p>Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
+            Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
+        </div>
+      </div>
+      <div class="item"
+        style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/winter-3.jpg);">
+        <div class="item-desc">
+          <h3>The Witcher 3</h3>
+          <p>The Witcher 3 is a multiplayer online battle arena by Valve. The game is a sequel to Defense
+            of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
+        </div>
+      </div>
+      <div class="item"
+        style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/rdr-2.jpg);">
+        <div class="item-desc">
+          <h3>RDR 2</h3>
+          <p>RDR 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
+            Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
+        </div>
+      </div>
+      <div class="item"
+        style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/pubg.jpg);">
+        <div class="item-desc">
+          <h3>PUBG Mobile</h3>
+          <p>PUBG 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
+            Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
+        </div>
+      </div>
+      <div class="item"
+        style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/fortnite.jpg);">
+        <div class="item-desc">
+          <h3>Fortnite</h3>
+          <p>Battle royale where 100 players fight to be the last person standing. which was a community-created mod
+            for Blizzard Entertainment's Warcraft III.</p>
+        </div>
+      </div>
+      <div class="item"
+        style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/far-cry-5.jpg);">
+        <div class="item-desc">
+          <h3>Far Cry 5</h3>
+          <p>Far Cry 5 is a 2018 first-person shooter game developed by Ubisoft.
+            which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
+        </div>
+      </div>
     </div>
-    </section>
-    <!-- Unlock the feature -->
+    </div>
+  </section>
+ -->
 
-
-    <!-- Carousel -->
-    <section class="game-section">
-    <div class="sec-title text-white text-center">
-            <h2>What can you expect?</h2>
-        </div>
-        <div class="owl-carousel custom-carousel owl-theme">
-            <div class="item active" style="background-image: url(img/Carousel-images/2.png);">
-                <div class="item-desc">
-                    <h3>PANEL DISCUSSIONS</h3>
-                    <p>Delve into enlightening discussions and learning sessions, gaining insights into the latest trends and technologies propelling the wedding industry forward.</p>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(img/Carousel-images/4.png);">
-                <div class="item-desc">
-                    <h3>EXPOSITION</h3>
-                    <p>Showcase of the latest technological marvels, innovations, and solutions revolutionizing weddings</p>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(img/Carousel-images/5.png);">
-                <div class="item-desc">
-                    <h3>ONE-ON-ONE</h3>
-                    <p>Forge connections that matter – from wedding planners to vendors, we're bridging gaps and fostering collaborations.</p>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(img/Carousel-images/10.png);">
-                <div class="item-desc">
-                    <h3>FASHION SHOW
-                    </h3>
-                    <p>A Night of glitz & glamour and putting the best fashion foot forward
-                    </p>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(img/Carousel-images/7.png);">
-                <div class="item-desc">
-                    <h3>CONCERT</h3>
-                    <p>Soulful melodies, traditional rhythms, and mesmerizing dance performances
-                    </p>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(img/Carousel-images/8.png);">
-                <div class="item-desc">
-                    <h3>MASTERCLASS</h3>
-                    <p>Dive into masterclasses, gaining hands-on expertise in cutting-edge techniques.
-                    </p>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(img/Carousel-images/9.png);">
-                <div class="item-desc">
-                    <h3>KUKAS TOUR</h3>
-                    <p>Discover the hidden gems of Jaipur as you delve into its historical landmarks
-
-                    </p>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- Carousel End -->
 
     <!--team member sec start-->
     <section class="team-member-sec px-120">
@@ -456,9 +486,12 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <p>You are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarras
-                                hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to your as repeat
-                                predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                            <p>You are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                                embarras
+                                hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to
+                                your as repeat
+                                predefined chunks as necessary, making this the first true generator on the Internet.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -467,7 +500,7 @@
                         <div class="col-md-6 col-lg-3" data-aos="zoom-in">
                             <div class="single-speaker-wrap">
                                 <div class="imgs">
-                                    <img src="img/speaker-01.jpg" alt="">
+                                    <img src="img/man.jpg" alt="">
                                     <ul>
                                         <li class="p-m"><i class="fa-solid fa-plus"></i></li>
                                         <li>
@@ -490,7 +523,7 @@
                         <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="600">
                             <div class="single-speaker-wrap">
                                 <div class="imgs">
-                                    <img src="img/speaker-02.jpg" alt="">
+                                    <img src="img/man.jpg" alt="">
                                     <ul>
                                         <li class="p-m"><i class="fa-solid fa-plus"></i></li>
                                         <li>
@@ -513,7 +546,7 @@
                         <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="900">
                             <div class="single-speaker-wrap">
                                 <div class="imgs">
-                                    <img src="img/speaker-03.jpg" alt="">
+                                    <img src="img/man.jpg" alt="">
                                     <ul>
                                         <li class="p-m"><i class="fa-solid fa-plus"></i></li>
                                         <li>
@@ -536,7 +569,7 @@
                         <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="900">
                             <div class="single-speaker-wrap">
                                 <div class="imgs">
-                                    <img src="img/speaker-04.jpg" alt="">
+                                    <img src="img/man.jpg" alt="">
                                     <ul>
                                         <li class="p-m"><i class="fa-solid fa-plus"></i></li>
                                         <li>
@@ -568,53 +601,68 @@
         <div class="container">
             <div class="row gy-4">
                 <div class="col-12">
-                    <div class="sec-title text-white text-center">
-                        <h4><img src="img/icon/title-icon-white.svg" data-aos="flip-left" data-aos-duration="1500" alt=""> Events Schedule 2023</h4>
+                    <div class="sec-title text-black text-center">
+                        <h4><img src="img/icon/title-icon-white.svg" data-aos="flip-left" data-aos-duration="1500"
+                                alt=""> Events Schedule 2023</h4>
                         <h2>Program Events Schedule</h2>
                     </div>
                 </div>
                 <div class="col-12 mt-0">
-                    <ul class="nav nav-tabs schedule-nav align-items-center justify-content-center mt-50" role="tablist">
+                    <ul class="nav nav-tabs schedule-nav align-items-center justify-content-center mt-50"
+                        role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="eventSchedule_tab2-tab" data-bs-toggle="tab" data-bs-target="#eventSchedule_tab2" type="button" role="tab" aria-controls="eventSchedule_tab2" aria-selected="false">01 Day 08 03 2023</button>
+                            <button class="nav-link" id="eventSchedule_tab2-tab" data-bs-toggle="tab"
+                                data-bs-target="#eventSchedule_tab2" type="button" role="tab"
+                                aria-controls="eventSchedule_tab2" aria-selected="false">Day 1 4th April 2024</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="eventSchedule_tab1-tab" data-bs-toggle="tab" data-bs-target="#eventSchedule_tab1" type="button" role="tab" aria-controls="eventSchedule_tab1" aria-selected="true">02 Day 08 03 2023</button>
+                            <button class="nav-link active" id="eventSchedule_tab1-tab" data-bs-toggle="tab"
+                                data-bs-target="#eventSchedule_tab1" type="button" role="tab"
+                                aria-controls="eventSchedule_tab1" aria-selected="true">Day 2 5th April 2024</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="eventScheduletab3-tab" data-bs-toggle="tab" data-bs-target="#eventScheduletab3" type="button" role="tab" aria-controls="eventScheduletab3" aria-selected="false">03 Day 08 03 2023</button>
+                            <button class="nav-link" id="eventScheduletab3-tab" data-bs-toggle="tab"
+                                data-bs-target="#eventScheduletab3" type="button" role="tab"
+                                aria-controls="eventScheduletab3" aria-selected="false">Day 3 6th April 2024</button>
+                        </li>
+                        <!-- <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="eventScheduletab32-tab" data-bs-toggle="tab"
+                                data-bs-target="#eventScheduletab32" type="button" role="tab"
+                                aria-controls="eventScheduletab32" aria-selected="false">04 Day 08 03 2023</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="eventScheduletab32-tab" data-bs-toggle="tab" data-bs-target="#eventScheduletab32" type="button" role="tab" aria-controls="eventScheduletab32" aria-selected="false">04 Day 08 03 2023</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="eventScheduletab33-tab" data-bs-toggle="tab" data-bs-target="#eventScheduletab33" type="button" role="tab" aria-controls="eventScheduletab33" aria-selected="false">05 Day 08 03 2023</button>
-                        </li>
+                            <button class="nav-link" id="eventScheduletab33-tab" data-bs-toggle="tab"
+                                data-bs-target="#eventScheduletab33" type="button" role="tab"
+                                aria-controls="eventScheduletab33" aria-selected="false">05 Day 08 03 2023</button>
+                        </li> -->
                     </ul><!--schedule navs-->
                 </div>
                 <div class="col-12">
                     <div class="tab-content mt-3" id="myTabContent">
-                        <div class="tab-pane fade" id="eventSchedule_tab2" role="tabpanel" aria-labelledby="eventSchedule_tab2-tab">
+                        <div class="tab-pane fade" id="eventSchedule_tab2" role="tabpanel"
+                            aria-labelledby="eventSchedule_tab2-tab">
                             <div class="row gy-3">
                                 <div class="col-12">
                                     <div class="single-schedule-table">
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Dj mixer Isolated as Gradient in Neon</a></h3>
+                                                    <h3><a href="event-details.html">Registration & Welcome    
+</a></h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
                                                 <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 09 : 30 AM to 12 : 30 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Florida, New York, USA</p>
+                                                    <p><i class="fa-regular fa-clock"></i>12.00 PM onwards</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i> Ananta Resort & Spa
+
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
                                                 <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
+                                                    <p>Experience the essence of Indian hospitality from the moment you arrive, promising a stay where every detail is crafted with warmth and care.
+</p>
                                                     <div class="ovr">
                                                         <img src="img/event-host-img.jpg" alt="">
                                                     </div>
@@ -637,20 +685,21 @@
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Need Senior Stock Technician</a></h3>
+                                                    <h3><a href="event-details.html">Kukas Tour</a>
+                                                    </h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
                                                 <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 10 : 00 AM to 01 : 00 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Chattala, Paris France</p>
+                                                    <p><i class="fa-regular fa-clock"></i>4.00 PM onwards</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i>Boarding at Ananta Resort & Spa
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
                                                 <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
+                                                    <p>Discover the hidden gems of Jaipur as you delve into its historical landmarks, indulge in local cuisine, and witness the captivating traditions of the Pink City.
+</p>
                                                     <div class="ovr">
                                                         <img src="img/event-host-img.jpg" alt="">
                                                     </div>
@@ -673,20 +722,20 @@
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Friends throwing up Champagne</a></h3>
+                                                    <h3><a href="event-details.html">Networking Dinner</a>
+                                                    </h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
                                                 <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 10 : 30 AM to 01 : 30 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Chattala, Paris France</p>
+                                                    <p><i class="fa-regular fa-clock"></i>7.00 PM onwards</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i> To be announced
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
                                                 <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
+                                                    <p>Join us under the stars for an evening of connection and camaraderie. The networking dinner promises delightful conversations and culinary experiences, creating a vibrant atmosphere for building lasting professional relationships.</p>
                                                     <div class="ovr">
                                                         <img src="img/event-host-img.jpg" alt="">
                                                     </div>
@@ -704,101 +753,30 @@
                                         </div>
                                     </div><!--/.single-schedule-table-->
                                 </div>
-                                <div class="col-12">
-                                    <div class="single-schedule-table">
-                                        <div class="row gy-4 align-items-center">
-                                            <div class="col-lg-3">
-                                                <div class="ttl">
-                                                    <h3><a href="event-details.php">Business Executive Giving a Speech</a></h3>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 09 : 30 AM to 12 : 30 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Elizabeth Tower, UK</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3">
-                                                <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
-                                                    <div class="ovr">
-                                                        <img src="img/event-host-img.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <div class="imgs d-flex gap-3 justify-content-center">
-                                                    <img src="img/event-host7.png" alt="">
-                                                    <img src="img/event-host8.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 text-end">
-                                                <a href="#" class="btn btn2">Buy Tickets</a>
-                                            </div>
-                                        </div>
-                                    </div><!--/.single-schedule-table-->
-                                </div>
-                                <div class="col-12">
-                                    <div class="single-schedule-table">
-                                        <div class="row gy-4 align-items-center">
-                                            <div class="col-lg-3">
-                                                <div class="ttl">
-                                                    <h3><a href="event-details.php">Girl Dancing at The Party Drinking</a></h3>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 10 : 00 AM to 01 : 00 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Florida, New York, USA</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3">
-                                                <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
-                                                    <div class="ovr">
-                                                        <img src="img/event-host-img.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <div class="imgs d-flex gap-3 justify-content-center">
-                                                    <img src="img/event-host2.png" alt="">
-                                                    <img src="img/event-host4.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 text-end">
-                                                <a href="#" class="btn btn2">Buy Tickets</a>
-                                            </div>
-                                        </div>
-                                    </div><!--/.single-schedule-table-->
-                                </div>
+
                             </div>
                         </div>
-                        <div class="tab-pane fade show active" id="eventSchedule_tab1" role="tabpanel" aria-labelledby="eventSchedule_tab1-tab">
+                        <div class="tab-pane fade show active" id="eventSchedule_tab1" role="tabpanel"
+                            aria-labelledby="eventSchedule_tab1-tab">
                             <div class="row gy-3">
                                 <div class="col-12">
                                     <div class="single-schedule-table">
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Dj mixer Isolated as Gradient in Neon</a></h3>
+                                                    <h3><a href="event-details.html">Summit Inauguration </a></h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
                                                 <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 09 : 30 AM to 12 : 30 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Florida, New York, USA</p>
+                                                    <p><i class="fa-regular fa-clock"></i>07.00 AM onwards</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i>Ananta Resort & Spa
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
                                                 <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
+                                                    <p>Embark on a journey of innovation as we inaugurate the summit at an intersection of ideas and advancements. The ribbon-cutting ceremony marks the commencement of a dynamic exchange, where knowledge meets exploration!</p>
                                                     <div class="ovr">
                                                         <img src="img/event-host-img.jpg" alt="">
                                                     </div>
@@ -821,20 +799,22 @@
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Need Senior Stock Technician</a></h3>
+                                                    <h3><a href="event-details.html">Conference & Exposition
+</a>
+                                                    </h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
                                                 <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 10 : 00 AM to 01 : 00 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Chattala, Paris France</p>
+                                                    <p><i class="fa-regular fa-clock"></i>07.00 AM onwards</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i>Ananta Resort & Spa
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
                                                 <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
+                                                    <p>Engage in insightful discussions and hands-on workshops on topics like AI in wedding photography, blockchain for secure wedding registries, and smart wedding venues.
+</p>
                                                     <div class="ovr">
                                                         <img src="img/event-host-img.jpg" alt="">
                                                     </div>
@@ -857,20 +837,21 @@
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Friends throwing up Champagne</a></h3>
+                                                    <h3><a href="event-details.html">Fashion Show
+</a>
+                                                    </h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
                                                 <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 10 : 30 AM to 01 : 30 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Chattala, Paris France</p>
+                                                    <p><i class="fa-regular fa-clock"></i>07.30 PM onwards</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i>Ananta Resort & Spa
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
                                                 <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
+                                                    <p>A Night of glitz & glamour and putting the best fashion foot forward. As we put together a spectacle, the who’s of the wedding & fashion fraternity, celebrities, socialites, HNI, and influencers come together</p>
                                                     <div class="ovr">
                                                         <img src="img/event-host-img.jpg" alt="">
                                                     </div>
@@ -888,25 +869,104 @@
                                         </div>
                                     </div><!--/.single-schedule-table-->
                                 </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="eventScheduletab3" role="tabpanel"
+                            aria-labelledby="eventScheduletab3-tab">
+                            <div class="row gy-3">
                                 <div class="col-12">
                                     <div class="single-schedule-table">
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Business Executive Giving a Speech</a></h3>
+                                                    <h3><a href="event-details.html">101 Weddings with Hope</a></h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
                                                 <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 09 : 30 AM to 12 : 30 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Elizabeth Tower, UK</p>
+                                                    <p><i class="fa-regular fa-clock"></i>09.00 AM onwards</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i>Ananta Resort & Spa
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
                                                 <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
+                                                    <p>A heartfelt initiative to help find companionship and support those who have lost their life partners during challenging times, such as the pandemic or in service to our nation in the army with Record-Breaking 101 Weddings!
+</p>
+                                                    <div class="ovr">
+                                                        <img src="img/event-host-img.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div class="imgs d-flex gap-3 justify-content-center">
+                                                    <img src="img/event-host1.png" alt="">
+                                                    <img src="img/event-host2.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2 text-end">
+                                                <a href="#" class="btn btn2">Buy Tickets</a>
+                                            </div>
+                                        </div>
+                                    </div><!--/.single-schedule-table-->
+                                </div>
+                                <div class="col-12">
+                                    <div class="single-schedule-table">
+                                        <div class="row gy-4 align-items-center">
+                                            <div class="col-lg-3">
+                                                <div class="ttl">
+                                                    <h3><a href="event-details.html">Masterclass & One-to-One Sessions
+</a>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div class="tme">
+                                                    <p><i class="fa-regular fa-clock"></i> 01.00 PM onwards</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i> Ananta Resort & Spa
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="dts">
+                                                    <p>From AI-driven planning to immersive virtual experiences, our masterclasses empower you to navigate the future of weddings with confidence. Seize this chance to propel your career and business forward through personalized interactions with the best in the field.</p>
+                                                    <div class="ovr">
+                                                        <img src="img/event-host-img.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div class="imgs d-flex gap-3 justify-content-center">
+                                                    <img src="img/event-host3.png" alt="">
+                                                    <img src="img/event-host4.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2 text-end">
+                                                <a href="#" class="btn btn2">Buy Tickets</a>
+                                            </div>
+                                        </div>
+                                    </div><!--/.single-schedule-table-->
+                                </div>
+                                <div class="col-12">
+                                    <div class="single-schedule-table">
+                                        <div class="row gy-4 align-items-center">
+                                            <div class="col-lg-3">
+                                                <div class="ttl">
+                                                    <h3><a href="event-details.html">WV Awards & Concert
+</a></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <div class="tme">
+                                                    <p><i class="fa-regular fa-clock"></i>07.00 PM onwards</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i>Ananta Resort & Spa</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="dts">
+                                                    <p>Be a part of one of the most prestigious and unbiased recognition platforms in the country, dedicated to the Indian and international Wedding Fraternity! Get ready for the most glamorous night of WV Connect.
+</p>
                                                     <div class="ovr">
                                                         <img src="img/event-host-img.jpg" alt="">
                                                     </div>
@@ -924,18 +984,25 @@
                                         </div>
                                     </div><!--/.single-schedule-table-->
                                 </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="eventScheduletab32" role="tabpanel"
+                            aria-labelledby="eventScheduletab32-tab">
+                            <div class="row gy-3">
                                 <div class="col-12">
                                     <div class="single-schedule-table">
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Girl Dancing at The Party Drinking</a></h3>
+                                                    <h3><a href="event-details.html">Girl Dancing at The Party
+                                                            Drinking</a></h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
                                                 <div class="tme">
                                                     <p><i class="fa-regular fa-clock"></i> 10 : 00 AM to 01 : 00 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Florida, New York, USA</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i> Florida, New York, USA
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
@@ -960,22 +1027,20 @@
                                         </div>
                                     </div><!--/.single-schedule-table-->
                                 </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="eventScheduletab3" role="tabpanel" aria-labelledby="eventScheduletab3-tab">
-                            <div class="row gy-3">
                                 <div class="col-12">
                                     <div class="single-schedule-table">
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Dj mixer Isolated as Gradient in Neon</a></h3>
+                                                    <h3><a href="event-details.html">Dj mixer Isolated as Gradient in
+                                                            Neon</a></h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
                                                 <div class="tme">
                                                     <p><i class="fa-regular fa-clock"></i> 09 : 30 AM to 12 : 30 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Florida, New York, USA</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i> Florida, New York, USA
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
@@ -1005,13 +1070,15 @@
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Need Senior Stock Technician</a></h3>
+                                                    <h3><a href="event-details.html">Need Senior Stock Technician</a>
+                                                    </h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
                                                 <div class="tme">
                                                     <p><i class="fa-regular fa-clock"></i> 10 : 00 AM to 01 : 00 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Chattala, Paris France</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i> Chattala, Paris France
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
@@ -1041,155 +1108,8 @@
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Business Executive Giving a Speech</a></h3>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 09 : 30 AM to 12 : 30 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Elizabeth Tower, UK</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3">
-                                                <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
-                                                    <div class="ovr">
-                                                        <img src="img/event-host-img.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <div class="imgs d-flex gap-3 justify-content-center">
-                                                    <img src="img/event-host7.png" alt="">
-                                                    <img src="img/event-host8.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 text-end">
-                                                <a href="#" class="btn btn2">Buy Tickets</a>
-                                            </div>
-                                        </div>
-                                    </div><!--/.single-schedule-table-->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="eventScheduletab32" role="tabpanel" aria-labelledby="eventScheduletab32-tab">
-                            <div class="row gy-3">
-                                <div class="col-12">
-                                    <div class="single-schedule-table">
-                                        <div class="row gy-4 align-items-center">
-                                            <div class="col-lg-3">
-                                                <div class="ttl">
-                                                    <h3><a href="event-details.php">Girl Dancing at The Party Drinking</a></h3>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 10 : 00 AM to 01 : 00 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Florida, New York, USA</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3">
-                                                <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
-                                                    <div class="ovr">
-                                                        <img src="img/event-host-img.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <div class="imgs d-flex gap-3 justify-content-center">
-                                                    <img src="img/event-host2.png" alt="">
-                                                    <img src="img/event-host4.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 text-end">
-                                                <a href="#" class="btn btn2">Buy Tickets</a>
-                                            </div>
-                                        </div>
-                                    </div><!--/.single-schedule-table-->
-                                </div>
-                                <div class="col-12">
-                                    <div class="single-schedule-table">
-                                        <div class="row gy-4 align-items-center">
-                                            <div class="col-lg-3">
-                                                <div class="ttl">
-                                                    <h3><a href="event-details.php">Dj mixer Isolated as Gradient in Neon</a></h3>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 09 : 30 AM to 12 : 30 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Florida, New York, USA</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3">
-                                                <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
-                                                    <div class="ovr">
-                                                        <img src="img/event-host-img.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <div class="imgs d-flex gap-3 justify-content-center">
-                                                    <img src="img/event-host1.png" alt="">
-                                                    <img src="img/event-host2.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 text-end">
-                                                <a href="#" class="btn btn2">Buy Tickets</a>
-                                            </div>
-                                        </div>
-                                    </div><!--/.single-schedule-table-->
-                                </div>
-                                <div class="col-12">
-                                    <div class="single-schedule-table">
-                                        <div class="row gy-4 align-items-center">
-                                            <div class="col-lg-3">
-                                                <div class="ttl">
-                                                    <h3><a href="event-details.php">Need Senior Stock Technician</a></h3>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <div class="tme">
-                                                    <p><i class="fa-regular fa-clock"></i> 10 : 00 AM to 01 : 00 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Chattala, Paris France</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3">
-                                                <div class="dts">
-                                                    <p>You are going to use a passage of Lorem
-                                                        hidden in the middle of text. All the as a
-                                                        predefined chunks as.</p>
-                                                    <div class="ovr">
-                                                        <img src="img/event-host-img.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <div class="imgs d-flex gap-3 justify-content-center">
-                                                    <img src="img/event-host3.png" alt="">
-                                                    <img src="img/event-host4.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 text-end">
-                                                <a href="#" class="btn btn2">Buy Tickets</a>
-                                            </div>
-                                        </div>
-                                    </div><!--/.single-schedule-table-->
-                                </div>
-                                <div class="col-12">
-                                    <div class="single-schedule-table">
-                                        <div class="row gy-4 align-items-center">
-                                            <div class="col-lg-3">
-                                                <div class="ttl">
-                                                    <h3><a href="event-details.php">Business Executive Giving a Speech</a></h3>
+                                                    <h3><a href="event-details.html">Business Executive Giving a
+                                                            Speech</a></h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
@@ -1222,20 +1142,23 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="eventScheduletab33" role="tabpanel" aria-labelledby="eventScheduletab33-tab">
+                        <div class="tab-pane fade" id="eventScheduletab33" role="tabpanel"
+                            aria-labelledby="eventScheduletab33-tab">
                             <div class="row gy-3">
                                 <div class="col-12">
                                     <div class="single-schedule-table">
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Dj mixer Isolated as Gradient in Neon</a></h3>
+                                                    <h3><a href="event-details.html">Dj mixer Isolated as Gradient in
+                                                            Neon</a></h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
                                                 <div class="tme">
                                                     <p><i class="fa-regular fa-clock"></i> 09 : 30 AM to 12 : 30 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Florida, New York, USA</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i> Florida, New York, USA
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
@@ -1265,13 +1188,15 @@
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Need Senior Stock Technician</a></h3>
+                                                    <h3><a href="event-details.html">Need Senior Stock Technician</a>
+                                                    </h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
                                                 <div class="tme">
                                                     <p><i class="fa-regular fa-clock"></i> 10 : 00 AM to 01 : 00 PM</p>
-                                                    <p><i class="fa-solid fa-location-dot"></i> Chattala, Paris France</p>
+                                                    <p><i class="fa-solid fa-location-dot"></i> Chattala, Paris France
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-3">
@@ -1301,7 +1226,8 @@
                                         <div class="row gy-4 align-items-center">
                                             <div class="col-lg-3">
                                                 <div class="ttl">
-                                                    <h3><a href="event-details.php">Business Executive Giving a Speech</a></h3>
+                                                    <h3><a href="event-details.html">Business Executive Giving a
+                                                            Speech</a></h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-2">
@@ -1343,6 +1269,100 @@
     </section>
     <!--event schedule sec end-->
 
+    <!--photo gallery sec start
+    <section class="photo-gellary-sec px-120">
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-12">
+                    <div class="sec-title text-center">
+                        <h4><img src="img/icon/title-icon.svg" data-aos="flip-left" data-aos-duration="1500" alt="">
+                            Recent Photo Gallery</h4>
+                        <h2>Check Our Latest Photos</h2>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row popup-gallery g-3">
+                        <div class="col-md-3">
+                            <div class="inner-gallary-single">
+                                <a href="img/gallary01.jpg" title="Man and woman dancing" data-sub="Dynamic portrait"
+                                    class="gl">
+                                    <img src="img/gallary01.jpg" alt="">
+                                    <div class="inner-content">
+                                        <h4>Man and woman dancing</h4>
+                                        <p>Dynamic portrait</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inner-gallary-single">
+                                <a href="img/gallary02.jpg" title="Raised in front of stage at music concert"
+                                    data-sub="Back view of audience" class="gl">
+                                    <img src="img/gallary02.jpg" alt="">
+                                    <div class="inner-content">
+                                        <h4>Raised in front of stage at music concert</h4>
+                                        <p>Back view of audience</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="inner-gallary-single">
+                                <a href="img/gallary03.jpg" title="Musician playing drums"
+                                    data-sub="Emotional play soft music" class="gl">
+                                    <img src="img/gallary03.jpg" alt="">
+                                    <div class="inner-content">
+                                        <h4>Musician playing drums</h4>
+                                        <p>Emotional play soft music </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="inner-gallary-single">
+                                <a href="img/gallary04.jpg" title="Concept of creativity and show business"
+                                    data-sub="Digital mixer in a recording studio" class="gl">
+                                    <img src="img/gallary04.jpg" alt="">
+                                    <div class="inner-content">
+                                        <h4>Concept of creativity and show business</h4>
+                                        <p>Digital mixer in a recording studio </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="inner-gallary-single">
+                                <a href="img/gallary05.jpg" title="Cheering crowd concert "
+                                    data-sub="Sound wave technology" class="gl">
+                                    <img src="img/gallary05.jpg" alt="">
+                                    <div class="inner-content">
+                                        <h4>Cheering crowd concert</h4>
+                                        <p>Sound wave technology </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="inner-gallary-single">
+                                <a href="img/gallary06.jpg" title="Video smartphone during"
+                                    data-sub="Close up of recording" class="gl">
+                                    <img src="img/gallary06.jpg" alt="">
+                                    <div class="inner-content">
+                                        <h4>Video smartphone during</h4>
+                                        <p>Close up of recording </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    photo gallery sec end-->
+
+
+
     <!-- about sec start -->
     <section class="about-sec pt-120">
         <div class="container">
@@ -1356,43 +1376,43 @@
                             <p>WV Connect 2024 is committed to leaving a positive imprint on lives, radiating love and support across the wedding community. Embrace this noble cause with us, as we unite to effect change. Together, we shall craft beautiful memories and kindle joy for those who have triumphed over adversity.</p>
                         </div>
                         <!-- <div class="about-bxs">
-                            <div class="d-sm-flex justify-content-between gap-4 ">
-                                <div class="inner-bx">
-                                    <img src="img/icon/maps-checkin.svg" alt="">
-                                    <h4>Where is Location</h4>
-                                    <p>You are going to use a passagi
-                                        of Lorem Ipsum, you need to</p>
+                                <div class="d-sm-flex justify-content-between gap-4 ">
+                                    <div class="inner-bx">
+                                        <img src="img/icon/maps-checkin.svg" alt="">
+                                        <h4>Where is Location</h4>
+                                        <p>You are going to use a passagi
+                                            of Lorem Ipsum, you need to</p>
+                                    </div>
+                                    <div class="inner-bx">
+                                        <img src="img/icon/calendar.svg" alt="">
+                                        <h4>When Will Start</h4>
+                                        <p>Sunday to Wednesday March
+                                            <strong>12 to 15, 2023</strong>
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="inner-bx">
-                                    <img src="img/icon/calendar.svg" alt="">
-                                    <h4>When Will Start</h4>
-                                    <p>Sunday to Wednesday March
-                                        <strong>12 to 15, 2023</strong>
-                                    </p>
-                                </div>
-                            </div>
-                        </div> -->
+                            </div> -->
                         <!-- <a href="about.php" class="btn btn1">Read More</a> -->
                     </div><!--/.right-content-about-->
                 </div>
                 <div class="col-lg-6">
                     <div class="left-imgs-about">
                         <div class="d-flex align-items-start justify-content-between">
-                            <img src="img/about-1.jpg" data-aos="fade-in" class="img1" alt="">
-                            <img src="img/about-3.jpg" data-aos="flip-left" data-aos-delay="300" class="img2" alt="">
-                            <img src="img/about-2.jpg" data-aos="zoom-in" class="pos-bottom" alt="">
+                            <img src="img/Carousel-images/11.png" data-aos="flip-left" data-aos-delay="300" class="img2" alt="">
+                            <img src="img/Carousel-images/10.png" data-aos="fade-in" class="img1" alt="">
+                            <img src="img/Carousel-images/12.png" data-aos="zoom-in" class="pos-bottom" alt="">
                         </div>
                         <!-- <div class="congrats-txt">
-                            <div class="d-flex align-items-center">
-                                <div class="icon">
-                                    <i class="fa-solid fa-check"></i>
+                                <div class="d-flex align-items-center">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-check"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <h3>Congratulations</h3>
+                                        <p>Your Registration Completed</p>
+                                    </div>
                                 </div>
-                                <div class="cont">
-                                    <h3>Congratulations</h3>
-                                    <p>Your Registration Completed</p>
-                                </div>
-                            </div>
-                        </div> -->
+                            </div> -->
                     </div><!--/.left-imgs-about-->
                 </div>
 
@@ -1400,12 +1420,10 @@
         </div><!--/.container-->
     </section>
     <!-- about sec end -->
+
     <!--testimonial sec start-->
     <section class="testimonial-sec px-120">
         <div class="container">
-        <div class="sec-title text-white text-center">
-            <h2>Testimonials</h2>
-        </div>
             <div class="row align-items-center gy-4">
                 <div class="col-md-8">
                     <div class="testi-slider-wraps">
@@ -1424,7 +1442,9 @@
                                             </div>
                                         </div>
                                         <div class="cont">
-                                            <p>There are many variations of passages of Lorem Ipsum available, but as majority have suffereid alteration in some form, by ki hoy injected hcum randomised words which don't look even slightly believable. If you are
+                                            <p>There are many variations of passages of Lorem Ipsum available, but as
+                                                majority have suffereid alteration in some form, by ki hoy injected hcum
+                                                randomised words which don't look even slightly believable. If you are
                                                 to use a passage of Lorem Ipsum.</p>
                                         </div>
                                         <div class="client-img">
@@ -1453,7 +1473,9 @@
                                             </div>
                                         </div>
                                         <div class="cont">
-                                            <p>There are many variations of passages of Lorem Ipsum available, but as majority have suffereid alteration in some form, by ki hoy injected hcum randomised words which don't look even slightly believable. If you are
+                                            <p>There are many variations of passages of Lorem Ipsum available, but as
+                                                majority have suffereid alteration in some form, by ki hoy injected hcum
+                                                randomised words which don't look even slightly believable. If you are
                                                 to use a passage of Lorem Ipsum.</p>
                                         </div>
                                         <div class="client-img">
@@ -1482,7 +1504,9 @@
                                             </div>
                                         </div>
                                         <div class="cont">
-                                            <p>There are many variations of passages of Lorem Ipsum available, but as majority have suffereid alteration in some form, by ki hoy injected hcum randomised words which don't look even slightly believable. If you are
+                                            <p>There are many variations of passages of Lorem Ipsum available, but as
+                                                majority have suffereid alteration in some form, by ki hoy injected hcum
+                                                randomised words which don't look even slightly believable. If you are
                                                 to use a passage of Lorem Ipsum.</p>
                                         </div>
                                         <div class="client-img">
@@ -1511,7 +1535,9 @@
                                             </div>
                                         </div>
                                         <div class="cont">
-                                            <p>There are many variations of passages of Lorem Ipsum available, but as majority have suffereid alteration in some form, by ki hoy injected hcum randomised words which don't look even slightly believable. If you are
+                                            <p>There are many variations of passages of Lorem Ipsum available, but as
+                                                majority have suffereid alteration in some form, by ki hoy injected hcum
+                                                randomised words which don't look even slightly believable. If you are
                                                 to use a passage of Lorem Ipsum.</p>
                                         </div>
                                         <div class="client-img">
@@ -1532,7 +1558,7 @@
                     </div><!--/.testi-slider-wraps-->
                 </div>
                 <div class="col-md-4">
-                    <div class="sec-title text-white">
+                    <div class="sec-title text-black">
                         <h4><img src="img/icon/title-icon-white.svg" data-aos="flip-left" data-aos-duration="1500" alt=""> Our Client Testimonial</h4>
                         <h2>Join of Thousand of Organizers Hosting Creative </h2>
                     </div>
@@ -1543,10 +1569,13 @@
                 </div>
             </div>
         </div><!--/.container-->
-        <img src="img/testimonial-circle-shape.svg" class="shape-one-top" alt="">
-        <img src="img/testimonial-circle-shape.svg" class="shape-one-right" alt="">
+        <!-- <img src="img/testimonial-circle-shape.svg" class="shape-one-top" alt="">
+        <img src="img/testimonial-circle-shape.svg" class="shape-one-right" alt=""> -->
     </section>
     <!--testimonial sec end-->
+
+
+
 
     <!-- partial:index.partial.html -->
     <section class="Partial">
@@ -1604,7 +1633,7 @@
                     <img src="img/Brand/17.png" height="100" width="250" alt="" />
                 </div>
                 <div class="slide">
-                    <img src="img/Brand/18.png" height="100" width="250" alt="" />
+                    <img src="img/Brand/18.PNG" height="100" width="250" alt="" />
                 </div>
                 <div class="slide">
                     <img src="img/Brand/19.jpg" height="100" width="250" alt="" />
@@ -1661,10 +1690,88 @@
     </section>
     <!-- FAQ Accordian ends -->
 
+    <!--footer start-->
+    <footer class="footers pt-120">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="footer-widget-desc">
+                        <img src="img/logo.png" alt="">
+                        <p>Lorem Ipsum is simply dummiys text our of the
+                            printing and typesetting industrys. As lorem a
+                            Ipsum has been the industry</p>
+                        <div class="newsletter">
+                            <h4>Subscribe to Our Newsletter</h4>
+                            <div class="frm">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <button type="submit" class="btn">Subscribe</button>
+                            </div>
+                        </div>
+                    </div><!--/.footer-widget-desc-->
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-2">
+                    <div class="footer-widget-si">
+                        <h3>Company</h3>
+                        <ul class="links">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Conference Schedule</a></li>
+                            <li><a href="#">Buy Tickets</a></li>
+                            <li><a href="#">Sponsoring</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div><!--/.footer-widget-si-->
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-2">
+                    <div class="footer-widget-si">
+                        <h3>Quick Links</h3>
+                        <ul class="links">
+                            <li><a href="#">Committees</a></li>
+                            <li><a href="#">Advisory Boards</a></li>
+                            <li><a href="#">Apply to Speak</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Volunteer</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </div><!--/.footer-widget-si-->
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="footer-widget-si">
+                        <h3>Instagram Posts</h3>
+                        <div class="instam d-flex flex-wrap gap-2">
+                            <img src="img/insta1.jpg" alt="">
+                            <img src="img/insta2.jpg" alt="">
+                            <img src="img/insta3.jpg" alt="">
+                            <img src="img/insta4.jpg" alt="">
+                            <img src="img/insta5.jpg" alt="">
+                            <img src="img/insta6.jpg" alt="">
+                        </div>
+                    </div><!--/.footer-widget-si-->
+                </div>
+            </div>
+        </div><!--/.container-->
+        <div class="copyright-conts">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-sm-6">
+                        <p>2023 © All rights reserved by Devsnest-llc</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <img src="img/testimonial-circle-shape.svg" class="shape-one-top" alt="">
+        <img src="img/testimonial-circle-shape.svg" class="shape-one-right" alt=""> -->
+    </footer>
+    <!--footer end-->
 
 
-    <?php include('includes/footer.php'); ?>
-    <a href="javascript:" id="return-to-top" ><i class="fa-solid fa-arrow-up"></i></a>
+    <a href="javascript:" id="return-to-top"><i class="fa-solid fa-arrow-up"></i></a>
 
     <!--jquery-->
     <script src="js/jquery.js"></script>
@@ -1682,10 +1789,26 @@
     <script src="js/vendor/easing.js"></script>
     <script src="js/countdown.js"></script>
     <!--main script-->
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+   -->
     <script src="js/main.js"></script>
-
-
-
+    <!-- <script>
+        $(".custom-carousel").owlCarousel({                                               
+          autoWidth: true,
+          loop: true,
+          autoplay: true,     
+          dots: true,   // Enable autoplay
+          autoplayTimeout: 2000    // Set autoplay timeout in milliseconds (3 seconds in this example)
+        });
+      
+        $(document).ready(function () {
+          $(".custom-carousel .item").click(function () {
+            $(".custom-carousel .item").not($(this)).removeClass("active");
+            $(this).toggleClass("active");
+          });
+        });
+      </script> -->
 </body>
 
 </html>

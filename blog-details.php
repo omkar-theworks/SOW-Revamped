@@ -110,7 +110,7 @@
                 <div class="container p-0">
                     <div class="main-responsive-menu">
                         <div class="logo">
-                            <a href="index.php">
+                            <a href="index.html">
                                 <img src="img/logo2.png"  alt="image">
                             </a>
                         </div><!--/.logo-->
@@ -121,7 +121,7 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <div class="brand-wrap">
-                            <a class="navbar-brand" href="index.php">
+                            <a class="navbar-brand" href="index.html">
                                 <img src="img/logo2.png" alt="image">
                             </a>
 
@@ -133,25 +133,25 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="index.php" class="nav-link ">Home Demo - 1</a>
+                                            <a href="index.html" class="nav-link ">Home Demo - 1</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="index-2.php" class="nav-link">Home Demo - 2</a>
+                                            <a href="index-2.html" class="nav-link">Home Demo - 2</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="about.php" class="nav-link ">About</a>
+                                    <a href="about.html" class="nav-link ">About</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link "> Event <i class="fa-solid fa-chevron-down"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="events.php" class="nav-link ">Event</a>
+                                            <a href="events.html" class="nav-link ">Event</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="event-details.php" class="nav-link ">Event Details</a>
+                                            <a href="event-details.html" class="nav-link ">Event Details</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -160,19 +160,19 @@
                                     </a>
                                     <ul class="dropdown-menu">                                        
                                         <li class="nav-item">
-                                            <a href="gallary.php" class="nav-link ">Gallary</a>
+                                            <a href="gallary.html" class="nav-link ">Gallary</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="speaker.php" class="nav-link ">Speaker</a>
+                                            <a href="speaker.html" class="nav-link ">Speaker</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="speaker-details.php" class="nav-link ">Speaker Details</a>
+                                            <a href="speaker-details.html" class="nav-link ">Speaker Details</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="pricing.php" class="nav-link ">Pricing</a>
+                                            <a href="pricing.html" class="nav-link ">Pricing</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="registration.php" class="nav-link ">Registration</a>
+                                            <a href="registration.html" class="nav-link ">Registration</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -181,15 +181,15 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="blog-grid.php" class="nav-link ">Blog Grid</a>
+                                            <a href="blog-grid.html" class="nav-link ">Blog Grid</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="blog-details.php" class="nav-link active">Blog Details</a>
+                                            <a href="blog-details.html" class="nav-link active">Blog Details</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="contact.php" class="nav-link">Contact</a>
+                                    <a href="contact.html" class="nav-link">Contact</a>
                                 </li>
                             </ul><!--/.navbar-nav -->
                             <div class="others-options d-flex align-items-center">
@@ -197,7 +197,7 @@
                                     <a class="opt" href="#search"><i class="fa-solid fa-search"></i></a>
                                 </div>
                                 <div class="option-item d-none d-xl-inline-block">
-                                    <a href="registration.php" class="btn btn1">Buy Tickets</a>
+                                    <a href="registration.html" class="btn btn1">Buy Tickets</a>
                                 </div>
                             </div><!--/.others-options-->
                         </div>
@@ -395,7 +395,7 @@
                                         <img src="img/blog1.jpg" alt="">
                                     </div>
                                     <div class="flex-grow-1">
-                                        <h5><a href="blog-details.php">Audience applauding speaker after conference presentation</a></h5>
+                                        <h5><a href="blog-details.html">Audience applauding speaker after conference presentation</a></h5>
                                         <p><i class="fa-solid fa-calendar-days"></i> 08 Jan 2023</p>
                                     </div>
                                 </div>
@@ -404,7 +404,7 @@
                                         <img src="img/blog2.jpg" alt="">
                                     </div>
                                     <div class="flex-grow-1">
-                                        <h5><a href="blog-details.php">People having fun the wedding hall presentation</a></h5>
+                                        <h5><a href="blog-details.html">People having fun the wedding hall presentation</a></h5>
                                         <p><i class="fa-solid fa-calendar-days"></i> 08 Jan 2023</p>
                                     </div>
                                 </div>
@@ -413,7 +413,7 @@
                                         <img src="img/blog3.jpg" alt="">
                                     </div>
                                     <div class="flex-grow-1">
-                                        <h5><a href="blog-details.php">Group of young people sitting on conference together</a></h5>
+                                        <h5><a href="blog-details.html">Group of young people sitting on conference together</a></h5>
                                         <p><i class="fa-solid fa-calendar-days"></i> 08 Jan 2023</p>
                                     </div>
                                 </div>
@@ -422,7 +422,7 @@
                                         <img src="img/blog1.jpg" alt="">
                                     </div>
                                     <div class="flex-grow-1">
-                                        <h5><a href="blog-details.php">Friends clinking drink glasses in a modern bar</a></h5>
+                                        <h5><a href="blog-details.html">Friends clinking drink glasses in a modern bar</a></h5>
                                         <p><i class="fa-solid fa-calendar-days"></i> 08 Jan 2023</p>
                                     </div>
                                 </div>
